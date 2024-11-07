@@ -33,19 +33,19 @@ int main() {
                 system("cls");
                 printf("Enter two numbers: ");
                 scanf("%f %f", &a, &b);
-                printf("Sum = %.2f\n", a - b);
+                printf("Difference = %.2f\n", a - b);
                 break;
             case 3: // Multiplication
                 system("cls");
                 printf("Enter two numbers: ");
                 scanf("%f %f", &a, &b);
-                printf("Sum = %.2f\n", a * b);
+                printf("Product = %.2f\n", a * b);
                 break;
             case 4: // Division
                 system("cls");
                 printf("Enter two numbers: ");
                 scanf("%f %f", &a, &b);
-                printf("Sum = %.2f\n", a / b);
+                printf("Quotient = %.2f\n", a / b);
                 break;
             case 5: // Exit the program
                 printf("\nExiting...\n");
